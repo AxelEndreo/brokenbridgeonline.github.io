@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Broken Bridge Online is a 2D MMORPG with unique classes, epic quests, and endless fun. Play solo or with friends and explore a world full of challenges and adventures!">
+    <title>Broken Bridge Online - 2D MMORPG</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <img src="img/bbo_logo.png" alt="BBO Logo">
+                    <h1 data-translate="gameTitle">Broken Bridge Online</h1>
+                </div>
+                
+                <!-- Seletor de idiomas (somente ES e PT) -->
+                
+                <ul class="nav-links">
+                    
+                    <div class="language-selector">
+                        <button class="language-btn" data-lang="es">ES</button>
+                        <button class="language-btn" data-lang="pt">PT</button>
+                        <button class="language-btn" data-lang="en">EN</button>
+
+                    </div>
+
+                    <li><a href="#home" data-translate="home">Home</a></li>
+                    <li><a href="#about" data-translate="about">About</a></li>
+                    <li><a href="#features" data-translate="features">Features</a></li>
+                    <!--
+                    <li><a href="#classes" data-translate="classes">Classes</a></li>
+                    -->
+                    <li><a href="#gallery" data-translate="gallery">Gallery</a></li>
+                    <li><a href="#faq" data-translate="faq">FAQ</a></li>
+                </ul>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h2 data-translate="heroTitle">Broken Bridge Online</h2>
+                <p data-translate="heroText">Join thousands of players in Broken Bridge Online, a 2D MMORPG full of mysteries, exciting battles and a vast world to explore.</p>
+                <div class="hero-buttons">
+                    <a href="#" class="btn" data-translate="soon">Coming Soon</a>
+                    <a href="#about" class="btn btn-secondary" data-translate="learnMore">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="about">
+        <div class="container">
+            <h2 class="section-title" data-translate="aboutTitle">About the Game</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p data-translate="aboutText1">Broken Bridge Online is an MMORPG in development focused on two warring kingdoms in an apocalyptic world invaded by beasts. Its strength is the PvP between the two largest nations, Serolf and Nidraj, who seek to control the market and dominate the different continents of the world. Initially, you can choose to belong to either of these factions to bring glory and honor to your nation through action-packed PvP battles in zones available at all hours, or remain neutral.</p>
+                </div>
+                <div class="about-image">
+                    <img src="img/06.png" alt="BBO Gameplay">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section features" id="features">
+        <div class="container">
+            <h2 class="section-title" data-translate="featuresTitle">Main Features</h2>
+            <div class="features-grid">
+                <!-- Class System -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 data-translate="feature1Title">Classes</h3>
+                    <p data-translate="feature1Text">Over 8 selectable classes, each with unique specializations and combat mechanics.</p>
+                </div>
+    
+                <!-- Nations -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-flag"></i>
+                    </div>
+                    <h3 data-translate="feature2Title">Nations</h3>
+                    <p data-translate="feature2Text">Two warring nations offering intense PvP warfare at all times.</p>
+                </div>
+    
+                <!-- Equipment -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-tshirt"></i>
+                    </div>
+                    <h3 data-translate="feature3Title">Equipment Sets</h3>
+                    <p data-translate="feature3Text">Wide variety of gear sets providing solutions for any combat situation.</p>
+                </div>
+    
+                <!-- Combat -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 data-translate="feature4Title">Combat Mechanics</h3>
+                    <p data-translate="feature4Text">Advanced combat systems for both PvP and PvE, with diverse strategies based on stat choices.</p>
+                </div>
+    
+                <!-- Government -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-crown"></i>
+                    </div>
+                    <h3 data-translate="feature5Title">Government System</h3>
+                    <p data-translate="feature5Text">Become the most powerful player in your kingdom and control wars/diplomacy for your nation.</p>
+                </div>
+    
+                <!-- Bosses -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-dragon"></i>
+                    </div>
+                    <h3 data-translate="feature6Title">Boss Battles</h3>
+                    <p data-translate="feature6Text">Numerous bosses with unique combat mechanics and challenges.</p>
+                </div>
+    
+                <!-- Events -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <h3 data-translate="feature7Title">Events</h3>
+                    <p data-translate="feature7Text">Automatic daily, weekly and monthly events including clan wars, nation wars, invasions and RvR content.</p>
+                </div>
+    
+                <!-- Management -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-city"></i>
+                    </div>
+                    <h3 data-translate="feature8Title">Management</h3>
+                    <p data-translate="feature8Text">Players can manage individual and group content including player housing, guild castles and cities.</p>
+                </div>
+    
+                <!-- Customization -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-user-edit"></i>
+                    </div>
+                    <h3 data-translate="feature9Title">Customization</h3>
+                    <p data-translate="feature9Text">Deep character customization including facial features, skin tones, hair styles and over 3 playable races.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section gallery" id="gallery">
+        <div class="container">
+            <h2 class="section-title" data-translate="galleryTitle">Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="img/gallery/01.PNG" alt="BBO Screenshot">
+                </div>
+                <div class="gallery-item">
+                    <img src="img/gallery/02.png" alt="BBO Screenshot">
+                </div>
+                <div class="gallery-item">
+                    <img src="img/gallery/03.png" alt="BBO Screenshot">
+                </div>
+                <div class="gallery-item">
+                    <img src="img/gallery/04.png" alt="BBO Screenshot">
+                </div>
+                <div class="gallery-item">
+                    <img src="img/gallery/05.png" alt="BBO Screenshot">
+                </div>
+                <div class="gallery-item">
+                    <img src="img/gallery/06.png" alt="BBO Screenshot">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section faq" id="faq">
+        <div class="container">
+            <h2 class="section-title" data-translate="faqTitle">Frequently Asked Questions</h2>
+            <div class="faq-container">
+                <!-- 1. Release Date -->
+                <div class="faq-item">
+                    <div class="faq-question" data-translate="faq1Question">
+                        When will the game be released?
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content" data-translate="faq1Answer">
+                            <p>We’re in early development, so no exact date yet. Follow our <strong>Discord</strong> for updates!</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- 2. Platforms -->
+                <div class="faq-item">
+                    <div class="faq-question" data-translate="faq2Question">
+                        Will BBO be on PC or mobile?
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content" data-translate="faq2Answer">
+                            <p><strong>PC first</strong>, with Android planned for later. Aiming for Steam release too!</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- 3. Free to Play? -->
+                <div class="faq-item">
+                    <div class="faq-question" data-translate="faq3Question">
+                        Is the game free?
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content" data-translate="faq3Answer">
+                            <p>Yes! <strong>Free to play</strong> with cosmetic microtransactions (no pay-to-win).</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- 4. PvE & PvP -->
+                <div class="faq-item">
+                    <div class="faq-question" data-translate="faq4Question">
+                        What gameplay can I expect?
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content" data-translate="faq4Answer">
+                            <p>Both! <strong>PvE</strong> (quests, bosses) and <strong>PvP</strong> (arenas, guild battles). Plus a main story + open world.</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- 5. Beta Testing -->
+                <div class="faq-item">
+                    <div class="faq-question" data-translate="faq5Question">
+                        Can I join the beta test?
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content" data-translate="faq5Answer">
+                            <p>Yes! A <strong>closed beta</strong> is planned for mid-2024. Join our Discord for updates.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <a href="#home" data-translate="home">Home</a>
+                <a href="#about" data-translate="about">About</a>
+                <a href="#features" data-translate="features">Features</a>
+                <!--
+                <a href="#classes" data-translate="classes">Classes</a>
+                -->
+                <a href="#gallery" data-translate="gallery">Gallery</a>
+                <a href="#faq" data-translate="faq">FAQ</a>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-discord"></i></a>
+                <a href="#"><i class="fab fa-twitch"></i></a>
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p class="copyright" data-translate="copyright">© 2025 Broken Bridge Online. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Arquivos JavaScript -->
+    <script src="translations.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
