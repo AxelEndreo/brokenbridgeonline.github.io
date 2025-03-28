@@ -712,10 +712,14 @@ footer {
         width: 80%;
         margin: 0.9375rem auto; /* 15px */
     }
+
+    /*
     
     .btn-secondary {
         margin-left: 0;
     }
+
+    */
     
     .about-text {
         padding-right: 0;
