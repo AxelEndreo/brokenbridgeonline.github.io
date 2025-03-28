@@ -281,8 +281,8 @@ nav {
 
 /* Features Section */
 .features {
-    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), 
-                url('img/05.png') no-repeat center center/cover;
+    /*  background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), 
+                url('img/05.png') no-repeat center center/cover;*/
     background-attachment: fixed;
     border-top: 0.125rem solid var(--gold); /* 2px */
     border-bottom: 0.125rem solid var(--gold); /* 2px */
@@ -448,7 +448,8 @@ nav {
 /* Gallery Section */
 .gallery {
     background-color: rgba(255, 255, 255, 0.05);
-    backdrop-filter: blur(0.3125rem); /* 5px */
+    /*
+    backdrop-filter: blur(0.3125rem); */
 }
 
 .gallery .section-title {
